@@ -63,9 +63,12 @@
 }
 
 .grid2-container div {
+    display: grid;
     font-size: 35px;
     background-color: blue;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     border-radius: 15px;
     margin: 5px;
