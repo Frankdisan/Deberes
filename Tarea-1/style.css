@@ -1,8 +1,10 @@
 .lista {
-    background-color: aqua;
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    border-radius: 25px;
+    font-size: 2rem;
 }
 
 .lista li {
@@ -17,5 +19,6 @@
 }
 
 .lista li a:hover {
-    background-color:lightgreen;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    border-radius: 25px;
 }

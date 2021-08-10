@@ -7,7 +7,7 @@
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ h1 {
     left: 0px;
     background-image:linear-gradient(to right, #0f2027, #203a43, #2c5364);
     width: 100%;
-    height: 10px;
+    height: 20px;
     filter:blur(15px);
     z-index:-1;
 }
@@ -50,20 +50,22 @@ h1 {
     left: 0px;
     background-image:linear-gradient(to right, #0f2027, #203a43, #2c5364);
     width: 100%;
-    height: 10px;
+    height: 20px;
     filter:blur(15px);
     z-index:-1;
 }
 
 .lista {
-    background-color: aqua;
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    border-radius: 25px;
+    font-size: 2rem;
 }
 
 .lista li {
-    display: inline-block;
+    display: inline-block;     
 }
 
 .lista li a {
@@ -74,5 +76,6 @@ h1 {
 }
 
 .lista li a:hover {
-    background-color:lightgreen;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    border-radius: 25px;
 }
